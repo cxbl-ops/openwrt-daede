@@ -9,7 +9,7 @@ TMP_DIR="/tmp/daede-install"
 
 # Which core backend to install alongside the LuCI app. daed ships the WebUI
 # and is the default the LuCI app expects. Override with DAEDE_CORE=dae|daed|both.
-DAEDE_CORE="${DAEDE_CORE:-daed}"
+DAEDE_CORE="${DAEDE_CORE:-dae}"
 
 fetch_text() {
   url="$1"
