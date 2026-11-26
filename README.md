@@ -132,6 +132,8 @@ wget -O - https://raw.githubusercontent.com/kenzok8/openwrt-daede/refs/heads/mai
 
 ## 使用
 
+🔎 **安装前检查**：[DAE Ready Check](https://huggingface.co/spaces/Augentern/dae-ready-check) — 只读检查 BTF、架构和设备信息；结果仅作参考，仍需核对具体 target 与内核 ABI。
+
 1. 安装后进入 LuCI「服务 → daede」
 2. 选择后端（dae 或 daed）
 3. 导入配置文件并启动
